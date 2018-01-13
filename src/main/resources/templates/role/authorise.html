@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <title>角色授权</title>
+    <#include "/head.html">
+</head>
+<body>
+<div class="container">
+    <div class="input-group">
+        <input type="text" class="form-control top-search-input" name="topParam" placeholder="请输入菜单名称">
+        <span class="input-group-btn">
+            <button type="button" class="btn btn-primary">搜索</button>
+        </span>
+    </div>
+    <div class="row">
+        <div class="col-md-7 col-sm-7 col-xs-7">
+            <h2>权限列表</h2>
+            <div id="menuActionTree" class=""></div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4" style="position:absolute;top:36%;left:65%">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <button type="button" id="btn-check-all" class="btn btn-primary">&nbsp全选</button>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <button type="button" id="btn-expand-all" class="btn btn-success">&nbsp展开</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6" style="padding-top: 20px;">
+                    <button type="button" id="btn-uncheck-all" class="btn btn-danger">&nbsp反选</button>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6" style="padding-top: 20px;">
+                    <button type="button" id="btn-collapse-all" class="btn btn-warning">&nbsp收起</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/com/role.js"></script>
+</body>
+<script>
+    $(function () {
+        loadMenuActionTree();
+    })
+</script>
+</html>

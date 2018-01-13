@@ -1,0 +1,4 @@
+2018-01-08 18:49:45,862 INFO (StartupInfoLogger.java:48)- Starting Application on DESKTOP-519B1F0 with PID 12056 (E:\IWorkspace\hmys\target\classes started by yawen.zhu in E:\IWorkspace\hmys)
+2018-01-08 18:49:45,862 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2018-01-08 18:49:45,862 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2018-01-08 18:49:54,707 INFO (StartupInfoLogger.java:57)- Started Application in 10.282 seconds (JVM running for 14.876)

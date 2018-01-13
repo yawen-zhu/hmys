@@ -1,0 +1,637 @@
+2017-12-28 00:01:28,784 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:01:28,798 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:01:28,801 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:01:28,804 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:01:28,805 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:01:28,808 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:01:28,810 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:01:28,811 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:01:28,814 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:03:16,779 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:03:16,781 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:03:16,785 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:03:16,787 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:03:16,788 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:03:16,791 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:03:16,793 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:03:16,793 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:03:16,796 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:04:01,823 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:04:01,824 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:04:01,827 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:04:01,828 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:04:01,829 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:04:01,832 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:04:01,834 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:04:01,835 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:04:01,838 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:04:44,767 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:04:44,768 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:04:44,771 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:04:44,773 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:04:44,774 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:04:44,777 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:04:44,790 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:04:44,791 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:04:44,794 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:05:37,889 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:05:37,890 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:05:37,892 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:05:37,894 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:05:37,894 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:05:37,897 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:05:37,899 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:05:37,900 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:05:37,902 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:06:26,927 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:06:26,928 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:06:26,933 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:06:26,934 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:06:26,936 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:06:26,940 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:06:26,942 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:06:26,943 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:06:26,945 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:07:05,944 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:07:05,945 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:07:05,948 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:07:05,949 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:07:05,950 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:07:05,954 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:07:05,955 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:07:05,957 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:07:05,960 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:07:37,703 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:07:37,704 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:07:37,705 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:07:37,707 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:07:37,707 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:07:37,709 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:07:37,711 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:07:37,712 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:07:37,714 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:07:45,906 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:07:45,907 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:07:45,910 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:07:45,911 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:07:45,911 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:07:45,914 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:07:45,916 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:07:45,916 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:07:45,919 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:10:45,001 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:10:45,002 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:10:45,005 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:10:45,006 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:10:45,007 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:10:45,010 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:10:45,012 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:10:45,012 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:10:45,015 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:11:26,644 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:11:26,645 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:11:26,648 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:11:26,649 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:11:26,650 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:11:26,653 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:11:26,654 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:11:26,655 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:11:26,658 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:13:36,793 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:13:36,794 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:13:36,796 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:13:36,798 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:13:36,799 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:13:36,802 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:13:36,806 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:13:36,807 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:13:36,810 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:14:07,499 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:14:07,500 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:14:07,503 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:14:07,823 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:14:07,824 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:14:07,827 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:14:08,222 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_USER t WHERE t.DS = 'Y' 
+2017-12-28 00:14:08,222 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:14:08,224 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 00:14:08,225 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 00:14:08,226 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:14:08,261 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2017-12-28 00:14:10,449 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_ROLE t WHERE t.DS = 'Y' 
+2017-12-28 00:14:10,449 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:14:10,451 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 00:14:10,452 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ROLE t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 00:14:10,453 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:14:10,454 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2017-12-28 00:14:11,563 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:14:11,564 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:14:11,566 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:14:11,568 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:14:11,569 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:14:11,571 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:14:11,572 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:14:11,573 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:14:11,575 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:16:10,585 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:16:10,586 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:16:10,588 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:16:10,590 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:16:10,590 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:16:10,593 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:16:10,595 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:16:10,596 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:16:10,598 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:17:14,116 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:17:14,117 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:17:14,119 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:17:14,120 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:17:14,121 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:17:14,123 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:17:14,124 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:17:14,124 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:17:14,126 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:18:47,508 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:18:47,509 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:18:47,511 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:18:47,513 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:18:47,514 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:18:47,517 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:18:47,518 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:18:47,519 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:18:47,521 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:19:03,037 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:19:03,038 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:03,041 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:19:03,293 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:19:03,294 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:03,296 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:19:03,648 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_USER t WHERE t.DS = 'Y' 
+2017-12-28 00:19:03,649 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:03,651 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 00:19:03,652 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 00:19:03,653 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:03,657 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2017-12-28 00:19:04,958 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_ROLE t WHERE t.DS = 'Y' 
+2017-12-28 00:19:04,958 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:04,959 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 00:19:04,960 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ROLE t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 00:19:04,961 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:04,963 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2017-12-28 00:19:06,282 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:19:06,283 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:06,286 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:19:06,287 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:19:06,287 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:06,289 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:19:06,290 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:19:06,291 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:19:06,292 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:19:57,029 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:19:57,029 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:57,031 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:19:57,316 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:19:57,317 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:57,319 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:19:57,658 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_USER t WHERE t.DS = 'Y' 
+2017-12-28 00:19:57,659 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:57,660 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 00:19:57,661 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 00:19:57,662 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:57,666 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2017-12-28 00:19:58,623 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_ROLE t WHERE t.DS = 'Y' 
+2017-12-28 00:19:58,624 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:58,625 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 00:19:58,626 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ROLE t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 00:19:58,627 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:58,630 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2017-12-28 00:19:59,727 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:19:59,728 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:59,730 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:19:59,732 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:19:59,733 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:19:59,737 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:19:59,738 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:19:59,739 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:19:59,741 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:23:47,436 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:23:47,437 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:23:47,439 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:23:47,441 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:23:47,441 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:23:47,444 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:23:47,445 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:23:47,446 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:23:47,447 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:25:10,598 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:25:10,598 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:25:10,601 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:25:10,602 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:25:10,602 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:25:10,605 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:25:10,606 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:25:10,606 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:25:10,608 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:25:23,292 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:25:23,293 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:25:23,295 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:25:23,580 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:25:23,580 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:25:23,583 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:25:23,918 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_USER t WHERE t.DS = 'Y' 
+2017-12-28 00:25:23,919 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:25:23,920 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 00:25:23,920 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 00:25:23,921 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:25:23,925 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2017-12-28 00:25:25,244 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_ROLE t WHERE t.DS = 'Y' 
+2017-12-28 00:25:25,245 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:25:25,246 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 00:25:25,247 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ROLE t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 00:25:25,248 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:25:25,271 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2017-12-28 00:25:27,040 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:25:27,040 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:25:27,042 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:25:27,043 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:25:27,043 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:25:27,046 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:25:27,047 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:25:27,049 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:25:27,051 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 00:26:07,864 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 00:26:07,865 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:26:07,868 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 00:26:07,870 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 00:26:07,871 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 00:26:07,874 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 00:26:07,875 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 00:26:07,876 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 00:26:07,879 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 20:17:43,630 INFO (StartupInfoLogger.java:48)- Starting Application on DESKTOP-519B1F0 with PID 11164 (E:\IWorkspace\hmys\target\classes started by yawen.zhu in E:\IWorkspace\hmys)
+2017-12-28 20:17:43,632 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-28 20:17:43,633 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2017-12-28 20:17:55,037 INFO (StartupInfoLogger.java:57)- Started Application in 12.614 seconds (JVM running for 18.319)
+2017-12-28 20:22:55,806 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.PWD = ? AND t.ACCOUNT = ? 
+2017-12-28 20:22:55,847 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 111(String), admin(String)
+2017-12-28 20:22:55,870 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 20:22:55,978 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 20:22:55,980 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 20:22:55,987 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 20:22:56,497 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 20:22:56,498 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 20:22:56,506 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 20:22:57,092 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_USER t WHERE t.DS = 'Y' 
+2017-12-28 20:22:57,093 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 20:22:57,095 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 20:22:57,098 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 20:22:57,099 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 20:22:57,108 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2017-12-28 22:06:59,253 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_ROLE t WHERE t.DS = 'Y' 
+2017-12-28 22:06:59,254 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:06:59,256 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 22:06:59,259 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ROLE t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 22:06:59,261 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:06:59,265 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2017-12-28 22:07:11,940 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.PWD = ? AND t.ACCOUNT = ? 
+2017-12-28 22:07:11,942 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 111(String), admin(String)
+2017-12-28 22:07:11,945 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 22:07:11,961 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:07:11,963 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:07:11,970 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:07:12,218 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:07:12,219 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:07:12,225 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:07:12,452 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_USER t WHERE t.DS = 'Y' 
+2017-12-28 22:07:12,453 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:07:12,454 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 22:07:12,455 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 22:07:12,456 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:07:12,472 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2017-12-28 22:07:15,207 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_ROLE t WHERE t.DS = 'Y' 
+2017-12-28 22:07:15,208 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:07:15,210 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 22:07:15,211 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ROLE t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 22:07:15,212 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:07:15,216 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2017-12-28 22:07:16,536 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:07:16,537 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:07:16,541 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:07:16,557 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:07:16,560 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:07:16,569 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:07:16,571 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:07:16,571 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:07:16,575 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:08:17,545 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:08:17,546 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:08:17,552 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:08:17,953 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:08:17,954 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:08:17,964 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:08:18,572 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_ROLE t WHERE t.DS = 'Y' 
+2017-12-28 22:08:18,574 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:08:18,576 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 22:08:18,577 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ROLE t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 22:08:18,578 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:08:18,582 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2017-12-28 22:08:20,026 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:08:20,027 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:08:20,031 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:08:20,034 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:08:20,035 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:08:20,040 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:08:20,043 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:08:20,044 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:08:20,047 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:12:06,590 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:12:06,591 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:12:06,596 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:12:06,598 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:12:06,599 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:12:06,602 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:12:06,603 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:12:06,603 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:12:06,607 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:17:03,606 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:17:03,607 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:17:03,612 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:17:04,110 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:17:04,111 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:17:04,116 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:17:04,608 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_ROLE t WHERE t.DS = 'Y' 
+2017-12-28 22:17:04,609 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:17:04,611 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-28 22:17:04,612 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ROLE t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-28 22:17:04,613 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:17:04,615 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2017-12-28 22:17:05,712 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:17:05,713 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:17:05,717 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:17:05,720 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:17:05,720 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:17:05,726 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:17:05,727 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:17:05,728 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:17:05,732 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:17:27,057 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:17:27,058 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:17:27,063 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:17:27,065 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:17:27,066 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:17:27,072 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:17:27,075 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:17:27,077 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:17:27,081 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:17:59,170 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:17:59,171 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:17:59,176 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:17:59,177 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:17:59,178 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:17:59,182 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:17:59,184 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:17:59,185 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:17:59,190 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:21:22,624 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:21:22,625 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:21:22,630 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:21:22,632 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:21:22,633 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:21:22,639 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:21:22,641 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:21:22,643 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:21:22,646 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:21:26,074 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:21:26,075 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:21:26,079 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:21:26,081 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:21:26,082 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:21:26,087 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:21:26,089 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:21:26,106 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:21:26,110 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:22:32,449 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:22:32,450 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:22:32,455 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:22:32,458 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:22:32,458 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:22:32,464 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:22:32,466 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:22:32,467 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:22:32,471 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:22:38,057 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:22:38,058 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:22:38,062 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:22:38,064 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:22:38,065 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:22:38,068 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:22:38,070 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:22:38,071 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:22:38,075 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:22:49,962 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:22:49,963 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:22:49,967 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:22:49,969 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:22:49,970 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:22:49,976 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:22:49,978 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:22:49,979 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:22:49,982 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:24:42,292 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:24:42,293 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:24:42,297 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:24:42,299 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:24:42,299 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:24:42,304 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:24:42,306 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:24:42,306 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:24:42,309 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:30:22,675 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:30:22,676 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:30:22,681 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:30:22,682 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:30:22,683 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:30:22,690 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:30:22,693 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:30:22,694 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:30:22,697 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:30:38,783 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:30:38,784 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:30:38,788 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:30:38,790 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:30:38,791 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:30:38,797 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:30:38,798 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:30:38,799 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:30:38,803 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:30:55,365 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:30:55,366 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:30:55,370 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:30:55,372 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:30:55,373 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:30:55,378 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:30:55,380 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:30:55,381 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:30:55,385 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:38:25,424 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:38:25,425 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:38:25,429 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:38:25,431 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:38:25,432 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:38:25,436 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:38:25,438 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:38:25,439 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:38:25,442 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:43:15,733 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:43:15,734 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:43:15,738 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:43:15,740 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:43:15,741 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:43:15,746 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:43:15,747 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:43:15,748 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:43:15,751 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:45:46,452 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:45:46,453 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:45:46,457 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:45:46,459 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:45:46,460 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:45:46,464 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:45:46,466 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:45:46,467 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:45:46,470 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:46:43,448 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:46:43,450 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:46:43,454 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:46:43,455 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:46:43,456 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:46:43,461 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:46:43,463 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:46:43,464 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:46:43,468 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:50:55,180 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:50:55,182 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:50:55,186 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:50:55,187 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:50:55,188 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:50:55,192 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:50:55,194 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:50:55,195 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:50:55,198 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:51:43,627 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:51:43,628 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:51:43,632 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:51:43,634 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:51:43,635 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:51:43,640 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:51:43,642 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:51:43,643 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:51:43,646 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:52:02,935 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:52:02,936 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:52:02,939 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:52:02,940 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:52:02,941 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:52:02,944 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:52:02,945 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:52:02,946 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:52:02,950 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:52:08,137 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:52:08,137 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:52:08,141 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:52:08,142 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:52:08,143 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:52:08,147 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:52:08,149 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:52:08,150 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:52:08,153 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:53:41,337 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:53:41,338 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:53:41,341 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:53:41,343 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:53:41,344 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:53:41,348 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:53:41,350 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:53:41,351 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:53:41,354 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:54:18,490 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:54:18,490 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:54:18,494 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:54:18,496 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:54:18,497 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:54:18,502 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:54:18,504 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:54:18,505 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:54:18,508 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:54:23,287 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:54:23,288 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:54:23,290 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:54:23,291 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:54:23,292 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:54:23,295 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:54:23,296 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:54:23,297 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:54:23,301 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:54:42,089 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:54:42,090 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:54:42,093 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:54:42,095 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:54:42,096 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:54:42,101 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:54:42,102 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:54:42,103 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:54:42,107 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:54:45,691 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:54:45,692 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:54:45,696 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:54:45,697 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:54:45,699 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:54:45,703 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:54:45,705 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:54:45,706 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:54:45,708 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:55:38,157 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:55:38,158 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:55:38,161 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:55:38,162 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:55:38,163 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:55:38,168 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:55:38,170 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:55:38,171 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:55:38,174 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:57:16,804 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:57:16,805 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:57:16,808 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:57:16,809 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:57:16,809 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:57:16,813 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:57:16,817 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:57:16,818 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:57:16,821 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:57:20,806 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:57:20,807 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:57:20,811 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:57:20,812 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:57:20,813 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:57:20,818 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:57:20,820 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:57:20,821 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:57:20,824 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:57:51,114 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:57:51,115 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:57:51,119 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:57:51,121 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:57:51,122 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:57:51,127 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:57:51,128 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:57:51,130 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:57:51,133 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8
+2017-12-28 22:57:55,002 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-28 22:57:55,003 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:57:55,006 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-28 22:57:55,007 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-28 22:57:55,008 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-28 22:57:55,011 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-28 22:57:55,013 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT a.* FROM SYS_ACTION a, SYS_ROLE_ACTION ra WHERE a.DS = 'Y' AND ra.DS = 'Y' AND a.PK_ID = ra.ACTION_ID AND ra.ROLE_ID = ? 
+2017-12-28 22:57:55,014 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-12-28 22:57:55,017 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 8

@@ -1,0 +1,72 @@
+2017-12-25 22:53:54,188 INFO (StartupInfoLogger.java:48)- Starting Application on DESKTOP-519B1F0 with PID 3392 (E:\IWorkspace\hmys\target\classes started by yawen.zhu in E:\IWorkspace\hmys)
+2017-12-25 22:53:54,188 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-25 22:53:54,188 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2017-12-25 22:54:04,064 INFO (StartupInfoLogger.java:57)- Started Application in 11.407 seconds (JVM running for 12.923)
+2017-12-25 23:13:40,107 INFO (StartupInfoLogger.java:48)- Starting Application on USER-20160625HQ with PID 3628 (D:\IWorkspace\hmys\target\classes started by Administrator in D:\IWorkspace\hmys)
+2017-12-25 23:13:40,107 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-25 23:13:40,107 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2017-12-25 23:13:48,671 INFO (StartupInfoLogger.java:57)- Started Application in 10.78 seconds (JVM running for 14.758)
+2017-12-25 23:14:03,153 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.PWD = ? AND t.ACCOUNT = ? 
+2017-12-25 23:14:03,186 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 111(String), admin(String)
+2017-12-25 23:14:03,212 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-25 23:14:03,291 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-25 23:14:03,292 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:14:03,299 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-25 23:14:04,104 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-25 23:14:04,104 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:14:04,109 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-25 23:14:04,482 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_USER t WHERE t.DS = 'Y' 
+2017-12-25 23:14:04,483 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:14:04,487 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-25 23:14:04,489 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-25 23:14:04,489 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:14:04,494 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2017-12-25 23:37:18,304 INFO (StartupInfoLogger.java:48)- Starting Application on DESKTOP-519B1F0 with PID 6748 (E:\IWorkspace\hmys\target\classes started by yawen.zhu in E:\IWorkspace\hmys)
+2017-12-25 23:37:18,319 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2017-12-25 23:37:18,319 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2017-12-25 23:37:30,153 INFO (StartupInfoLogger.java:57)- Started Application in 13.195 seconds (JVM running for 18.273)
+2017-12-25 23:40:09,908 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.PWD = ? AND t.ACCOUNT = ? 
+2017-12-25 23:40:09,955 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 111(String), admin(String)
+2017-12-25 23:40:09,971 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-25 23:40:10,049 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-25 23:40:10,049 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:10,049 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-25 23:40:10,408 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-25 23:40:10,408 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:10,424 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-25 23:40:10,752 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_USER t WHERE t.DS = 'Y' 
+2017-12-25 23:40:10,752 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:10,752 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-25 23:40:10,752 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-25 23:40:10,752 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:10,752 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2017-12-25 23:40:13,383 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_USER t WHERE t.DS = 'Y' 
+2017-12-25 23:40:13,383 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:13,383 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-25 23:40:13,383 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_USER t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-25 23:40:13,383 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:13,398 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2017-12-25 23:40:17,159 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM SYS_ROLE t WHERE t.DS = 'Y' 
+2017-12-25 23:40:17,159 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:17,159 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-12-25 23:40:17,159 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ROLE t WHERE t.DS = 'Y' LIMIT 10 
+2017-12-25 23:40:17,159 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:17,174 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2017-12-25 23:40:18,595 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-25 23:40:18,595 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:18,595 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-25 23:40:18,610 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-25 23:40:18,610 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:18,610 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-25 23:40:27,604 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-25 23:40:27,607 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:27,607 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-25 23:40:27,607 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-25 23:40:27,607 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:27,607 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16
+2017-12-25 23:40:29,547 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_MENU t WHERE t.DS = 'Y' 
+2017-12-25 23:40:29,547 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:29,547 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-12-25 23:40:29,547 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT t.* FROM SYS_ACTION t WHERE t.DS = 'Y' 
+2017-12-25 23:40:29,547 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-12-25 23:40:29,547 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 16

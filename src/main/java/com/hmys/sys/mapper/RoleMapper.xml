@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hmys.sys.domain.Role">
+    <resultMap id="BaseResultMap" type="com.hmys.sys.domain.Role">
+        <id column="PK_ID" property="pkId" jdbcType="DECIMAL" />
+        <result column="NAME" property="name" jdbcType="VARCHAR" />
+        <result column="CREATE_USER" property="createUser" jdbcType="DECIMAL" />
+        <result column="CREATE_TIME" property="createTime" jdbcType="VARCHAR" />
+        <result column="UPDATE_USER" property="updateUser" jdbcType="DECIMAL" />
+        <result column="UPDATE_TIME" property="updateTime" jdbcType="VARCHAR" />
+        <result column="DS" property="ds" jdbcType="VARCHAR" />
+    </resultMap>
+    <sql id="BaseWhere">
+        <where>
+            t.DS = 'Y'
+            <if test="pkId!= null and pkId!= ''">AND t.PK_ID = #{pkId}</if>
+            <if test="name!= null and name!= ''">AND t.NAME = #{name}</if>
+            <if test="createUser!= null and createUser!= ''">AND t.CREATE_USER = #{createUser}</if>
+            <if test="createTime!= null and createTime!= ''">AND t.CREATE_TIME = #{createTime}</if>
+            <if test="updateUser!= null and updateUser!= ''">AND t.UPDATE_USER = #{updateUser}</if>
+            <if test="updateTime!= null and updateTime!= ''">AND t.UPDATE_TIME = #{updateTime}</if>
+        </where>
+    </sql>
+    <!-- ###########################################################################-->
+
+    <!-- 查询列表 -->
+    <select id="select_list" resultMap="BaseResultMap" parameterType="java.util.Map">
+        SELECT t.*
+        FROM SYS_ROLE t
+       <include refid="BaseWhere"/>
+    </select>
+
+    <!-- 根据ID查询 -->
+    <select id="load" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        SELECT t.*
+        FROM SYS_ROLE t
+        WHERE t.PK_ID = #{id}
+    </select>
+
+    <!-- 人员批量删除 -->
+    <delete id="delete_batch" parameterType="java.util.List">
+        <![CDATA[
+	       DELETE FROM t_user WHERE pk_id IN
+	    ]]>
+        <foreach collection="list" item="pkId" open="(" separator=","
+                 close=")">#{pkId}
+
+        </foreach>
+    </delete>
+
+</mapper>

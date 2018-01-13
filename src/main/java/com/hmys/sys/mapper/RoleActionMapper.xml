@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hmys.sys.domain.RoleAction">
+    <resultMap id="BaseResultMap" type="com.hmys.sys.domain.RoleAction">
+        <id column="PK_ID" property="pkId" jdbcType="DECIMAL" />
+        <id column="ROLE_ID" property="roleId" jdbcType="DECIMAL" />
+        <id column="ACTION_ID" property="actionId" jdbcType="DECIMAL" />
+        <result column="CREATE_TIME" property="createTime" jdbcType="VARCHAR" />
+        <result column="DS" property="ds" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <!-- 查询列表 -->
+    <select id="select_list" resultMap="BaseResultMap" parameterType="java.util.Map">
+        SELECT t.*
+        FROM SYS_ROLE_ACTION t
+    </select>
+
+    <!-- 根据ID查询 -->
+    <select id="load" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        SELECT t.*
+        FROM SYS_ROLE_ACTION t
+        WHERE t.PK_ID = #{id}
+    </select>
+
+    <!-- 人员批量删除 -->
+    <delete id="delete_batch" parameterType="java.util.List">
+        <![CDATA[
+	       DELETE FROM SYS_ROLE_ACTION WHERE pk_id IN
+	    ]]>
+        <foreach collection="list" item="pkId" open="(" separator=","
+                 close=")">#{pkId}
+
+        </foreach>
+    </delete>
+
+</mapper>
